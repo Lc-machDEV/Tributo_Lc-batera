@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: helvetica;
+    background-color: #ddd;
+
+}
+
+.container {
+    max-width: 1100px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: relative;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+}
+
+.main-title {
+    padding: 20px;
+    font-size: 40px;
+    color: #ddd;
+    text-shadow:  2px 2px #100;
+}
+
+.main-paragraph {
+    border-bottom: 1px solid #ddd;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.featured-image {
+    text-align: center;
+}
+
+.featured-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.featured-image figcaption {
+    padding-top: 14px;
+    font-style: italic;
+    font-size: 14px;
+    color: #777;
+}
+
+.biography-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.p {
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+cite {
+    font-style: italic;
+    color: #000; 
+    font-size: 14px;
+
+}
+
+.quotes-container {
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 6px;
+    border-bottom: 1px solid #000
+}
+
+
+
+.quotes-container blockquote {
+    font-size: 16px;
+}
+
+.curiosities-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.curiosities-container li {
+    padding-top: 15px;
+    height: 28px;
+}
+
+.curiosities-container ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+.parallax {
+    background-image: url(../assets/reunion-worship.jpeg);
+    height: 100vh;
+    margin-top: 20px;
+    border-radius: 6px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.moreinfo-container {
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 6px;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.moreinfo-container a ::before {
+    content: "🔗";
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+
